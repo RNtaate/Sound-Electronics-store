@@ -74,19 +74,31 @@ a:hover {
 }
 
 header {
-  background: 
+  background:
   linear-gradient(to top, transparent, #d35266),
   linear-gradient(to bottom, transparent, #d35266),
   url("images/flowingdots.gif");
   background-size: cover;
   background-position: center;
-}
-
-.header_div span {
+  padding: 20px 40px;
+  z-index: -2;
   position: relative;
 }
 
-.header_div > span:before {
+.header_upper-div {
+  margin-top: 8vw;
+  display: none;
+}
+
+.header_upper-div h1 {
+  font-size: 5em;
+}
+
+.header_div--div span {
+  position: relative;
+}
+
+.header_div--div > span:before {
   content: "";
   position: absolute;
   left: -20px;
@@ -97,8 +109,22 @@ header {
   border-color: black transparent transparent transparent;
 }
 
+.header_form {
+  display: flex;
+  flex-direction: column;
+}
+
 form input[type="text"] {
   border: none;
+  margin-bottom: 3px;
+}
+
+.sec-1_div {
+  max-width: 600px;
+}
+
+.sec-1_div-img {
+  width: 100%;
 }
 
 .sec-2,
@@ -192,6 +218,58 @@ footer {
 
 
 @media only screen and (min-width: 768px) {
+  header {
+    padding: 20px 100px;
+  }
+
+  .header_upper-div {
+    display: block;
+  }
+
+  .header_div {
+    display: flex;
+  }
+
+  .header_div--div:first-child {
+    flex: 1;
+    margin-right: 2px;
+  }
+
+  .header_div--div:last-child {
+    flex: 2;
+  }
+
+  .header_form {
+    align-items:center;
+    flex-direction: row;
+  }
+
+  .header_form input[type="text"] {
+    flex: 2;
+    margin-right: 2px;
+    margin-bottom: 0;
+  }
+
+  .header_form input[type="button"] {
+    flex: 1;
+  }
+
+  .sec-1_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 800px;
+  }
+
+  .sec-1_div-img {
+    margin-right: 30px;
+  }
+
+  .card-body_purchase-div {
+    display: inline-block;
+    width: 70%;
+  }
+
   .upper-footer-div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -200,6 +278,24 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
+  .header_lower-div {
+    display: flex;
+    align-items: center;
+  }
+
+  .header_div {
+    flex: 1;
+    margin-right: 2px;
+  }
+
+  .header_form input[type="text"] {
+    margin-right: 20px;
+  }
+
+  .header_form {
+    flex: 1;
+  }
+
   .upper-footer-div {
     padding: 0 20px;
     grid-template-columns: repeat(4, 1fr);
