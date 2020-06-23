@@ -13,6 +13,10 @@ a:hover {
   text-decoration: none;
 }
 
+.bg-container {
+  background-color: #f7f7f7;
+}
+
 .bg-highlight {
   background-color: #d35266;
 }
@@ -27,6 +31,10 @@ a:hover {
 
 .bg-dark-container {
   background-color: #333;
+}
+
+.text-highlight-dark {
+  color: #333;
 }
 
 .gotham-light {
@@ -65,7 +73,6 @@ a:hover {
   font-size: 1.5em;
 }
 
-
 header {
   background: 
   linear-gradient(to top, transparent, #d35266),
@@ -74,7 +81,6 @@ header {
   background-size: cover;
   background-position: center;
 }
-
 
 .header_div span {
   position: relative;
@@ -93,4 +99,23 @@ header {
 
 form input[type="text"] {
   border: none;
+}
+
+.card-body_purchase-div a:first-child {
+  flex: 1;
+  border-right: 1px solid #333;
+}
+
+.card-body_purchase-div a:last-child {
+  flex: 5;
+}
+
+.person-info,
+.card-text {
+  font-style: normal;
+  font-size: 0.9em;
+}
+
+.section-heading-div p {
+  font-size: 0.8em;
 }
