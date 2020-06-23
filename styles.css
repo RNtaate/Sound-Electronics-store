@@ -101,6 +101,22 @@ form input[type="text"] {
   border: none;
 }
 
+.sec-2,
+.sec-3 {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.products-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.home-div {
+  max-width: 290px;
+}
+
 .card-body_purchase-div a:first-child {
   flex: 1;
   border-right: 1px solid #333;
@@ -124,12 +140,21 @@ footer {
   border-bottom: 4px solid #d35266;
 }
 
+.footer_logo-section h1 {
+  font-size: 1.1em;
+}
+
 .footer_img {
-  width: 4em;
+  width: 3em;
 }
 
 .footer_h6 {
   border-bottom: 1px solid #d35266;
+}
+
+.footer_categories-div {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer_nav > a {
@@ -137,11 +162,52 @@ footer {
   font-size: 0.8em;
 }
 
+.footer_person-info {
+  display: flex;
+}
+
+.footer_logo-section p,
 .footer_person-info p {
   font-size: 0.8em;
-  width: 10em;
+}
+
+.footer_person-info p:first-child {
+  flex:1;
+  margin-right: 4px;
+}
+
+.footer_person-info p:last-child {
+  flex: 2;
 }
 
 .lower-footer-div p {
   font-size: 0.7em;
+}
+
+.lower-footer-icons-div {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .upper-footer-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .upper-footer-div {
+    padding: 0 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .lower-footer-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
 }
