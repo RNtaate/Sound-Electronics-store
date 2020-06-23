@@ -119,3 +119,29 @@ form input[type="text"] {
 .section-heading-div p {
   font-size: 0.8em;
 }
+
+footer {
+  border-bottom: 4px solid #d35266;
+}
+
+.footer_img {
+  width: 4em;
+}
+
+.footer_h6 {
+  border-bottom: 1px solid #d35266;
+}
+
+.footer_nav > a {
+  display: block;
+  font-size: 0.8em;
+}
+
+.footer_person-info p {
+  font-size: 0.8em;
+  width: 10em;
+}
+
+.lower-footer-div p {
+  font-size: 0.7em;
+}
