@@ -6,7 +6,7 @@
 .sup {
   position: absolute;
   border-radius: 50%;
-  padding:  0 7px;
+  padding: 0 7px;
   top: -10px;
   left: 10px;
   font-size: 0.7em;
@@ -15,7 +15,6 @@
 
 .header_upper-div {
   margin-top: 2vw;
-  /* display: none; */
 }
 
 .header_upper-div h1 {
@@ -31,6 +30,10 @@
   background-color: white;
 }
 
+.call-link {
+  display: none;
+}
+
 .sec-1_div:hover .call-link {
   display: block;
 }
@@ -42,15 +45,11 @@
 
 .card-body_purchase-div a:first-child {
   flex: none;
-  border:none;
+  border: none;
 }
 
 .card-body_purchase-div a:last-child {
   flex: none;
-}
-
-.call-link {
-  display: none;
 }
 
 .preference-div {
@@ -66,9 +65,9 @@
 
   .card-body_purchase-div a:first-child {
     flex: none;
-    border:none;
+    border: none;
   }
-  
+
   .card-body_purchase-div a:last-child {
     flex: none;
   }

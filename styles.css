@@ -43,27 +43,27 @@ a:hover {
 }
 
 .gotham-light {
-  font-family: "Gotham Rounded Light";
+  font-family: "Gotham Rounded Light", sans-serif;
 }
 
 .gotham-bold {
-  font-family: "Gotham Bold";
+  font-family: "Gotham Bold", sans-serif;
 }
 
 .helvetica-light {
-  font-family: "Helvetica Neue Light";
+  font-family: "Helvetica Neue Light", sans-serif;
 }
 
 .helvetica-medium {
-  font-family: "Helvetica Neue Medium";
+  font-family: "Helvetica Neue Medium", sans-serif;
 }
 
 .helvetica-bold {
-  font-family: "HelveticaNeue-Bold";
+  font-family: "HelveticaNeue-Bold", sans-serif;
 }
 
 .helvetica-ultra {
-  font-family: "Helvetica Neue UltraLight";
+  font-family: "Helvetica Neue UltraLight", sans-serif;
 }
 
 .nav_img {
@@ -80,9 +80,9 @@ a:hover {
 
 header {
   background:
-  linear-gradient(to top, transparent, #d35266),
-  linear-gradient(to bottom, transparent, #d35266),
-  url("images/flowingdots.gif");
+    linear-gradient(to top, transparent, #d35266),
+    linear-gradient(to bottom, transparent, #d35266),
+    url("images/flowingdots.gif");
   background-size: cover;
   background-position: center;
   padding: 20px 40px;
@@ -102,7 +102,7 @@ header {
   position: relative;
 }
 
-.header_div--div > span:before {
+.header_div--div > span::before {
   content: "";
   position: absolute;
   left: -20px;
@@ -151,6 +151,11 @@ form input[type="text"] {
   cursor: pointer;
 }
 
+.footer_nav > a {
+  display: block;
+  font-size: 0.8em;
+}
+
 .card-body_purchase-div a:first-child {
   flex: 1;
   border-right: 1px solid #333;
@@ -166,7 +171,9 @@ form input[type="text"] {
   font-size: 0.9em;
 }
 
-.section-heading-div p {
+.section-heading-div p,
+.footer_logo-section p,
+.footer_person-info p {
   font-size: 0.8em;
 }
 
@@ -191,22 +198,16 @@ footer {
   justify-content: space-between;
 }
 
-.footer_nav > a {
-  display: block;
-  font-size: 0.8em;
-}
-
 .footer_person-info {
   display: flex;
 }
 
-.footer_logo-section p,
-.footer_person-info p {
-  font-size: 0.8em;
+.lower-footer-div p {
+  font-size: 0.7em;
 }
 
 .footer_person-info p:first-child {
-  flex:1;
+  flex: 1;
   margin-right: 4px;
 }
 
@@ -214,16 +215,10 @@ footer {
   flex: 2;
 }
 
-.lower-footer-div p {
-  font-size: 0.7em;
-}
-
 .lower-footer-icons-div {
   display: flex;
   justify-content: center;
 }
-
-
 
 @media only screen and (min-width: 768px) {
   .nav_img {
@@ -252,7 +247,7 @@ footer {
   }
 
   .header_form {
-    align-items:center;
+    align-items: center;
     flex-direction: row;
   }
 
