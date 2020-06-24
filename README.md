@@ -4,7 +4,7 @@
 
 In this project, I the author built an online Electronics store webpage whose design was inspired by a prototype  built by Mohammed Awad at the [Behance Webpage](https://www.behance.net/gallery/24796463/ZATTIX)
 
-The purpose of the project was to demonstrate my understanding and mastery of a range of HTML and CSS3 concepts, from Backgrounds and Gradients to Floats and Positioning to name a few, and my ability to work with CSS Frameworks such as Twitter Bootstrap.
+The purpose of the project was to demonstrate my understanding and mastery of a range of  HTML and CSS3 concepts, from Backgrounds and Gradients to Floats and Positioning to name a few, and my ability to work with CSS Frameworks such as Twitter Bootstrap, learned throughout the course of the HTML and CSS3 curriculum of the Microverse Program.
 
 
 ![screenshot](./images/screenshot.png)
