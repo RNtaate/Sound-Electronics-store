@@ -147,3 +147,17 @@ form input[type="text"] {
 .header_upper-div h1 {
   font-size: 3em;
 }
+
+.sec-1_div:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.card-body_purchase-div a:first-child {
+  flex: 1;
+  border:none;
+}
+
+.card-body_purchase-div a:last-child {
+  flex: 1;
+}
