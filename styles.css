@@ -13,6 +13,11 @@ a:hover {
   text-decoration: none;
 }
 
+.hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+}
+
 .bg-container {
   background-color: #f7f7f7;
 }
@@ -65,7 +70,7 @@ a:hover {
   width: 2em;
 }
 
-.nav_logo-div h1 {
+.nav_logo-div h2 {
   font-size: 1.5em;
 }
 
@@ -142,6 +147,10 @@ form input[type="text"] {
   max-width: 290px;
 }
 
+.home-div:hover {
+  cursor: pointer;
+}
+
 .card-body_purchase-div a:first-child {
   flex: 1;
   border-right: 1px solid #333;
@@ -165,7 +174,7 @@ footer {
   border-bottom: 4px solid #d35266;
 }
 
-.footer_logo-section h1 {
+.footer_logo-section h2 {
   font-size: 1.1em;
 }
 
@@ -306,6 +315,7 @@ footer {
 
   .home-div:hover {
     transform: scale(1.1);
+    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.4);
   }
 
   .home-div h5 {
