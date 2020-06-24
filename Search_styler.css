@@ -148,16 +148,92 @@ form input[type="text"] {
   font-size: 3em;
 }
 
+.goods-div {
+  border-bottom: 1px solid lightgray;
+}
+
 .sec-1_div:hover {
   cursor: pointer;
   background-color: white;
 }
 
+.sec-1_div:hover .call-link {
+  display: block;
+}
+
+.card-body_purchase-div {
+  display: flex;
+  justify-content: space-between;
+}
+
 .card-body_purchase-div a:first-child {
-  flex: 1;
+  flex: none;
   border:none;
 }
 
 .card-body_purchase-div a:last-child {
-  flex: 1;
+  flex: none;
+}
+
+.call-link {
+  display: none;
+}
+
+.preference-div {
+  max-width: 600px;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-body_purchase-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .card-body_purchase-div a:first-child {
+    flex: none;
+    border:none;
+  }
+  
+  .card-body_purchase-div a:last-child {
+    flex: none;
+  }
+
+  .preference-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    max-width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    padding: 0 40px;
+  }
+
+  .goods-div {
+    order: 2;
+    flex: 3;
+    border-bottom: none;
+  }
+
+  .preference-div {
+    display: block;
+    order: 1;
+    border-right: 1px solid lightgray;
+    flex: 1;
+  }
+
+  .sec-1_div {
+    transition: 0.4s ease-in-out;
+  }
+
+  .sec-1_div:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.4);
+  }
 }
