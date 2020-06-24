@@ -125,10 +125,32 @@ form input[type="text"] {
 
 .sec-1_div {
   max-width: 600px;
+  position: relative;
 }
 
 .sec-1_div-img {
   width: 100%;
+}
+
+.sec-1_arrow-span1,
+.sec-1_arrow-span2 {
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 20px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sec-1_arrow-span1 {
+  left: -90px;
+}
+
+.sec-1_arrow-span2 {
+  right: -70px;
 }
 
 .sec-2,
@@ -301,6 +323,19 @@ footer {
 
   .header_form {
     flex: 1;
+  }
+
+  .sec-1_arrow-span1,
+  .sec-1_arrow-span2 {
+    display: flex;
+    transition: 0.2s ease-in-out;
+  }
+
+  .sec-1_arrow-span1:hover,
+  .sec-1_arrow-span2:hover {
+    transform: scale(1.1) translateY(-50%);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
   }
 
   .home-div {
