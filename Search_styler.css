@@ -1,0 +1,149 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.bg-container {
+  background-color: #f7f7f7;
+}
+
+.bg-highlight {
+  background-color: #d35266;
+}
+
+.text-highlight {
+  color: #d35266;
+}
+
+.bg-light-container {
+  background-color: #888;
+}
+
+.bg-dark-container {
+  background-color: #333;
+}
+
+.text-highlight-dark {
+  color: #333;
+}
+
+.gotham-light {
+  font-family: "Gotham Rounded Light";
+}
+
+.gotham-bold {
+  font-family: "Gotham Bold";
+}
+
+.helvetica-light {
+  font-family: "Helvetica Neue Light";
+}
+
+.helvetica-medium {
+  font-family: "Helvetica Neue Medium";
+}
+
+.helvetica-bold {
+  font-family: "HelveticaNeue-Bold";
+}
+
+.helvetica-ultra {
+  font-family: "Helvetica Neue UltraLight";
+}
+
+.nav_img {
+  width: 2em;
+}
+
+.nav_logo-div h1 {
+  font-size: 1.5em;
+}
+
+.fa-bars {
+  font-size: 1.5em;
+}
+
+header {
+  background:
+  linear-gradient(to top, transparent, #d35266),
+  linear-gradient(to bottom, transparent, #d35266),
+  url("images/flowingdots.gif");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 40px;
+  z-index: -2;
+  position: relative;
+}
+
+.header_upper-div {
+  margin-top: 8vw;
+  display: none;
+}
+
+.header_upper-div h1 {
+  font-size: 5em;
+}
+
+.header_div--div span {
+  position: relative;
+}
+
+.header_div--div > span:before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translate(0, -30%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.header_form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="text"] {
+  border: none;
+  margin-bottom: 3px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+} */
+
+.envelope_link {
+  position: relative;
+  font-size: 1.3em;
+}
+
+.sup {
+  position: absolute;
+  border-radius: 50%;
+  padding:  0 7px;
+  top: -10px;
+  left: 10px;
+  font-size: 0.7em;
+  background-color: #d35266;
+}
+
+.header_upper-div {
+  margin-top: 2vw;
+  /* display: none; */
+}
+
+.header_upper-div h1 {
+  font-size: 3em;
+}

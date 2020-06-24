@@ -136,7 +136,7 @@ form input[type="text"] {
 .products-div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .home-div {
@@ -218,6 +218,10 @@ footer {
 
 
 @media only screen and (min-width: 768px) {
+  .nav_img {
+    width: 4em;
+  }
+
   header {
     padding: 20px 100px;
   }
