@@ -81,7 +81,6 @@ header {
   background-size: cover;
   background-position: center;
   padding: 20px 40px;
-  z-index: -2;
   position: relative;
 }
 
@@ -129,7 +128,7 @@ form input[type="text"] {
 
 .sec-2,
 .sec-3 {
-  max-width: 1250px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -254,7 +253,7 @@ footer {
     margin-bottom: 0;
   }
 
-  .header_form input[type="button"] {
+  .header_form a {
     flex: 1;
   }
 
@@ -298,6 +297,23 @@ footer {
 
   .header_form {
     flex: 1;
+  }
+
+  .home-div {
+    max-width: 250px;
+    transition: 0.4s ease-in-out;
+  }
+
+  .home-div:hover {
+    transform: scale(1.1);
+  }
+
+  .home-div h5 {
+    font-size: 0.95em;
+  }
+
+  .home-div span {
+    font-size: 0.8em;
   }
 
   .upper-footer-div {
