@@ -19,7 +19,7 @@ The project has 2 pages, The homepage above and a Search page which can be acces
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/RNtaate/Sound-Electronics-store/e16b34e1fba79434a6eb70bdf5640755c8525166/index.html)
+[Live Demo Link](https://rawcdn.githack.com/RNtaate/Sound-Electronics-store/dd0d967d84629ed8bee9fb0752a962d8ee6b1cf8/index.html)
 
 
 ## Getting Started
