@@ -292,6 +292,11 @@ footer {
 
   .sec-1_div-img {
     margin-right: 30px;
+    flex: 1;
+  }
+
+  .sec-1_desc-div {
+    flex: 2;
   }
 
   .card-body_purchase-div {
