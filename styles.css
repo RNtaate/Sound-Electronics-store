@@ -68,6 +68,7 @@ a:hover {
 
 .nav_img {
   width: 2em;
+  height: auto;
 }
 
 .nav_logo-div h2 {
@@ -125,11 +126,13 @@ form input[type="text"] {
 
 .sec-1_div {
   max-width: 600px;
+  height: auto;
   position: relative;
 }
 
 .sec-1_div-img img {
   width: 100%;
+  height: auto;
 }
 
 .sec-1_arrow-span1,
@@ -156,6 +159,7 @@ form input[type="text"] {
 .sec-2,
 .sec-3 {
   max-width: 1200px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -167,6 +171,7 @@ form input[type="text"] {
 
 .home-div {
   max-width: 290px;
+  height: auto;
 }
 
 .home-div:hover {
@@ -209,6 +214,7 @@ footer {
 
 .footer_img {
   width: 3em;
+  height: auto;
 }
 
 .footer_h6 {
