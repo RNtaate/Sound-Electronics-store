@@ -234,7 +234,7 @@ footer {
 }
 
 .footer_person-info p:last-child {
-  flex: 2;
+  flex: 1;
 }
 
 .lower-footer-icons-div {
