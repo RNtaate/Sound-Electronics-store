@@ -1,0 +1,73 @@
+/* #####################################
+Helvetica Neue font family
+####################################### */
+
+@font-face {
+  font-family: "HelveticaNeue-Bold";
+  src: url("fonts/cc9c992be5b7d9e9d1d38254fe057492.eot"); /* IE9 */
+  src:
+    url("fonts/cc9c992be5b7d9e9d1d38254fe057492.eot?#iefix") format("embedded-opentype"),
+    url("fonts/9c992be5b7d9e9d1d38254fe057492.woff2") format("woff2"),
+    url("fonts/cc9c992be5b7d9e9d1d3    54fe057492.woff") format("woff"),
+    url("fonts/cc9c992be5b7d9e9d1d38254fe057492.ttf") format("truetype"),
+    url("fonts/cc9c992be5b7d9e9d1d38254fe057492.svg#HelveticaNeue-Bold") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url("fonts/0e6de1ec911a2e267ff136bbdd384a44.eot"); /* IE9 */
+  src:
+    url("fonts/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"),
+    url("fonts/6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"),
+    url("fonts/0e6de1ec911a2e267ff1    bbdd384a44.woff") format("woff"),
+    url("fonts/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"),
+    url("fonts/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue Light") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Helvetica Neue Medium";
+  src: url("ad4f223f08dab24cfc81e643bb88cc66.eot"); /* IE9 */
+  src:
+    url("fonts/ad4f223f08dab24cfc81e643bb88cc66.eot?#iefix") format("embedded-opentype"),
+    url("fonts/    4f223f08dab24cfc81e643bb88cc66.woff2") format("woff2"),
+    url("fonts/ad4f223f08dab24cfc81    43bb88cc66.woff") format("woff"),
+    url("fonts/ad4f223f08dab24cfc81e643bb88cc66.ttf") format("truetype"),
+    url("fonts/ad4f223f08dab24cfc81e643bb88cc66.svg#Helvetica Neue Medium") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Helvetica Neue UltraLight";
+  src: url("fonts/513e00a92551c7f365c8d2d6cb475658.eot"); /* IE9 */
+  src:
+    url("fonts/513e00a92551c7f365c8d2d6cb475658.eot?#iefix") format("embedded-opentype"),
+    url("fonts/3e00a92551c7f365c8d2d6cb475658.woff2") format("woff2"),
+    url("fonts/513e00a92551c7f365c8    d6cb475658.woff") format("woff"),
+    url("fonts/513e00a92551c7f365c8d2d6cb475658.ttf") format("truetype"),
+    url("fonts/513e00a92551c7f365c8d2d6cb475658.svg#Helvetica Neue UltraLight") format("svg"); /* iOS 4.1- */
+}
+
+/* ##################################
+Gotham Font Family
+#################################### */
+
+@font-face {
+  font-family: "Gotham Rounded Light";
+  src: url("fonts/1549fe8fd297f1e6501a3d6ad7f77394.eot"); /* IE9 */
+  src:
+    url("fonts/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"),
+    url("fonts/49fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"),
+    url("fonts/1549fe8fd297f1e6501a    6ad7f77394.woff") format("woff"),
+    url("fonts/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"),
+    url("fonts/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded Light") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("5d6f50ed2dde0e4ad455448f896c09f0.eot"); /* IE9 */
+  src:
+    url("fonts/5d6f50ed2dde0e4ad455448f896c09f0.eot?#iefix") format("embedded-opentype"),
+    url("fonts/6f50ed2dde0e4ad455448f896c09f0.woff2") format("woff2"),
+    url("fonts/5d6f50ed2dde0e4ad455    8f896c09f0.woff") format("woff"),
+    url("fonts/5d6f50ed2dde0e4ad455448f896c09f0.ttf") format("truetype"),
+    url("fonts/5d6f50ed2dde0e4ad455448f896c09f0.svg#Gotham Bold") format("svg"); /* iOS 4.1- */
+}
