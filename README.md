@@ -7,7 +7,7 @@ In this project, I the author built an online Electronics store webpage whose de
 The purpose of the project was to demonstrate my understanding and mastery of a range of  HTML and CSS3 concepts, from Backgrounds and Gradients to Floats and Positioning to name a few, and my ability to work with CSS Frameworks such as Twitter Bootstrap, learned throughout the course of the HTML and CSS3 curriculum of the Microverse Program.
 
 
-![screenshot](./images/screenshot.png)
+![screenshot](./images/screenshot_electronics.jpg)
 
 The project has 2 pages, The homepage above and a Search page which can be accessed by clicking on the 'Search' button seen in the page above.
 
